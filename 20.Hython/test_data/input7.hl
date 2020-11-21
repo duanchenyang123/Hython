@@ -1,0 +1,21 @@
+{
+    print "begin program";
+    function addX(x) {
+        function add(a, b) {
+            return a + b + x;
+        }
+        print "hello haizei";
+        return add;
+    }
+    print "hello world";
+
+    def a10 = addX(10);
+    print "hello haizei";
+    def a1000 = addX(1000);
+    
+
+    print a1000;
+    print a10(3, 4);
+    print a1000(3, 4);
+
+}

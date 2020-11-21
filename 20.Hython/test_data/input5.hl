@@ -1,0 +1,8 @@
+{
+    def c = 10000;
+    function add(a, b) {
+        return a + b + c;
+    }
+    def d =1;
+    print add(3, 4);
+}
